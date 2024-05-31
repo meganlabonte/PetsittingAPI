@@ -1,0 +1,38 @@
+/* Basic CSS utilizing styles of colour, size, underlining and borders */
+body {
+background-color: lightblue;
+      color: black;
+      font-family: Arial, sans-serif;
+      text-align: center
+    }
+    
+.megsPaws {
+  font-size: 50px;
+}
+
+#intro {
+  color: #38D2D2;
+  padding: 15px 25px;
+  text-decoration-line: underline;
+}
+
+.petChecklist {
+  font-size: 20px;
+  }
+
+.button {
+  color: whitesmoke;
+  padding: 15px 25px;
+  background-color: #38D2D2;
+  border:1px solid white;
+}
+
+.petNameGenerator {
+  font-size: 20px;
+}
+
+ .borderDiv {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+

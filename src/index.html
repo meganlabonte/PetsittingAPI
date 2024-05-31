@@ -1,0 +1,50 @@
+<!--Basic HTML using provided template found with ! tab. I've used multiple HTML tags including head, h1, title, div and button -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--To link my css-->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <div class="borderDiv">
+  <title>Meg's Paws Website</title>
+</head>
+  
+<body>
+  <h1 id=megsPaws>Meg's Paws<h1>
+    <p id="intro">Here for your pet needs!</p>
+    <div class="petChecklist">
+<!--Below petInput is altered in JS per assignment requirement-->
+    <p id="petInput">What type of pet do you have today</p>
+<!-- Using a checklist to get input from the user -->
+      <input type="checkbox" id="pet1">
+      <label for="pet1"> I have a Dog</label><br>
+      <input type="checkbox" id="pet2">
+      <label for="pet2"> I have a Cat</label><br>
+      <input type="checkbox" id="pet3">
+      <label for="pet3"> I have a Hamster</label><br>
+ <!--Upon clicking submit, the pricing alert will be displayed. The DOM event onclick occurs when the user clicks on an element-->
+      <br>
+ <!--Introducing, this. Whilst trying to incorporate onmouseover into my JS, I found out about this. When used in an event handler, this refers to the element that received the event-->
+      <button onclick="petSelection()" onmouseover="mouseOver(this)" onmouseout="mouseNotOver(this)" class="button">Submit Pet Type</button>
+    </div>
+    <br>
+    <div class="petNameG">
+      <p id="petNameGen"> Pet Name Generator</p>
+      <button onclick="petNameGenerator()" onmouseover="mouseOver(this)" onmouseout="mouseNotOver(this)" class="button"  >Generate Some Pet Names!</button>
+      <div id="petNamesOutput"></div>
+      <br>
+ <!--Generated pet names will be displayed here-->
+    </div>
+    
+ <!-- I wanted to try create an image slider, however, pictures will not show up on webpage and not able to upload images to codepen. 
+    <div class="imageContainer">
+      <div class="imageSlider">
+        <img source="https://pixabay.com/photos/cat-pet-animal-sea-country-8198720/" alt="hamster">
+      </div>
+    </div>
+    -->
+    </div>
+</body>
+</html>
