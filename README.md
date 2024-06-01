@@ -1,4 +1,3 @@
-# CFG-Assignment-2
+# Main Branch
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Megan-Labonte/pen/eYadVOE](https://codepen.io/Megan-Labonte/pen/eYadVOE).
-
+This Repo will hold all my assignments for the CFGDegree <3
