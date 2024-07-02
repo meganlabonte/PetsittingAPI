@@ -11,7 +11,7 @@ To run this project, you need to have the following installed:
 
 ## Setting Up the Project
 
-Please download the files and make sure you have installed the correct dependencies using 'npm install' in your terminal. You should also download the correct packages:
+Please download or copy my code and make sure you have installed the correct dependencies using 'npm install' in your terminal. You should also download the correct packages:
 
 <img width="629" alt="Installing packages" src="https://github.com/meganlabonte/CFG-Assignments/assets/107578187/ecdb770b-69a0-44ae-b1a3-ccb82f1038e5">
 
@@ -25,9 +25,11 @@ DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
 DB_NAME=petsitting`
 
+<img width="240" alt="Screenshot 2024-07-02 at 13 12 15" src="https://github.com/meganlabonte/CFG-Assignments/assets/107578187/e79b78d5-f005-460c-afc6-d9c71f83599a">
+
 ## Running the server
 
-To run the server, use 'node index.js'
+To run the server, use 'node index.js'. To stop the server, use '^c'.
 
 <img width="439" alt="Running server and cancelling connection" src="https://github.com/meganlabonte/CFG-Assignments/assets/107578187/6b6fa25e-a5c0-493d-8c34-10ba4fc0c931">
 
